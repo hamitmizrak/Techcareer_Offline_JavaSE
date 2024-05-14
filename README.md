@@ -1,0 +1,1 @@
+[GitHub Persist Link](https://github.com/hamitmizrak/Techcareer_Offline_JavaSE/tree/master/src/main/java/com/hamitmizrak)
