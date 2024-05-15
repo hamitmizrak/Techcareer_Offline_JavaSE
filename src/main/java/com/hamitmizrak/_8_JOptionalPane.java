@@ -12,6 +12,5 @@ public class _8_JOptionalPane {
         // Kullanıcıdan Veri almak
         String name = JOptionPane.showInputDialog("Lütfen ismizi giriniz");
         JOptionPane.showMessageDialog(null, "Adiniz:" + name);
-
-    }
-}
+    } //end PSVM
+}// end Class
