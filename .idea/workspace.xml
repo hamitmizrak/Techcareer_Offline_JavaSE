@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="588a4993-db0d-4175-8c19-3830ef08ab7f" name="Changes" comment="Primitive and Wrapper Class">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hamitmizrak/_6_NumbersSystem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hamitmizrak/_7_Scanner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hamitmizrak/_4_DataTypesPrimitive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hamitmizrak/_4_DataTypesPrimitive.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hamitmizrak/_5_DataTypesWrapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hamitmizrak/_5_DataTypesWrapper.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +62,8 @@
     "Gradle.Techcareer_Offline_JavaSE [:_3_Variables.main()].executor": "Run",
     "Gradle.Techcareer_Offline_JavaSE [:_4_DataTypesPrimitive.main()].executor": "Run",
     "Gradle.Techcareer_Offline_JavaSE [:_5_DataTypesWrapper.main()].executor": "Run",
+    "Gradle.Techcareer_Offline_JavaSE [:_6_NumbersSystem.main()].executor": "Run",
+    "Gradle.Techcareer_Offline_JavaSE [:_7_Scanner.main()].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
@@ -77,33 +79,7 @@
       <recent name="com.hamitmizrak" />
     </key>
   </component>
-  <component name="RunManager" selected="Application._4_DataTypesPrimitive">
-    <configuration name="_1_HelloWorld" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hamitmizrak._1_HelloWorld" />
-      <module name="Techcareer_Offline_JavaSE.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hamitmizrak.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="_2_PsvmOperators" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hamitmizrak._2_PsvmOperators" />
-      <module name="Techcareer_Offline_JavaSE.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hamitmizrak.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application._7_Scanner">
     <configuration name="_3_Variables" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.hamitmizrak._3_Variables" />
       <module name="Techcareer_Offline_JavaSE.main" />
@@ -143,13 +119,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="_6_NumbersSystem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hamitmizrak._6_NumbersSystem" />
+      <module name="Techcareer_Offline_JavaSE.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hamitmizrak.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_7_Scanner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hamitmizrak._7_Scanner" />
+      <module name="Techcareer_Offline_JavaSE.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hamitmizrak.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application._7_Scanner" />
+        <item itemvalue="Application._6_NumbersSystem" />
         <item itemvalue="Application._5_DataTypesWrapper" />
         <item itemvalue="Application._4_DataTypesPrimitive" />
         <item itemvalue="Application._3_Variables" />
-        <item itemvalue="Application._2_PsvmOperators" />
-        <item itemvalue="Application._1_HelloWorld" />
       </list>
     </recent_temporary>
   </component>
@@ -186,7 +188,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715758777416</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Primitive and Wrapper Class">
+      <option name="closed" value="true" />
+      <created>1715758960447</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1715758960447</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
