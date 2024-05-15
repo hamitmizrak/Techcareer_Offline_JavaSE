@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="588a4993-db0d-4175-8c19-3830ef08ab7f" name="Changes" comment="jOptionalPane">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hamitmizrak/_8_JOptionalPane.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hamitmizrak/_8_JOptionalPane.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hamitmizrak/_10_System.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hamitmizrak/_11_Math.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hamitmizrak/_12_Random.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hamitmizrak/_9_Cast.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,10 +43,10 @@
     &quot;accountId&quot;: &quot;69300f97-9f43-4990-ba90-933e80471c89&quot;
   }
 }</component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 0
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2gT2NJ8WR5l43XJUYh9RilRAJAP" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -55,6 +59,9 @@
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "Gradle.Techcareer_Offline_JavaSE [:Main.main()].executor": "Run",
+    "Gradle.Techcareer_Offline_JavaSE [:_10_System.main()].executor": "Run",
+    "Gradle.Techcareer_Offline_JavaSE [:_11_Math.main()].executor": "Run",
+    "Gradle.Techcareer_Offline_JavaSE [:_12_Random.main()].executor": "Run",
     "Gradle.Techcareer_Offline_JavaSE [:_1_HelloWorld.main()].executor": "Run",
     "Gradle.Techcareer_Offline_JavaSE [:_2_PsvmOperators.main()].executor": "Run",
     "Gradle.Techcareer_Offline_JavaSE [:_3_Variables.main()].executor": "Run",
@@ -63,11 +70,13 @@
     "Gradle.Techcareer_Offline_JavaSE [:_6_NumbersSystem.main()].executor": "Run",
     "Gradle.Techcareer_Offline_JavaSE [:_7_Scanner.main()].executor": "Run",
     "Gradle.Techcareer_Offline_JavaSE [:_8_JOptionalPane.main()].executor": "Run",
+    "Gradle.Techcareer_Offline_JavaSE [:_9_Cast.main()].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "onboarding.tips.debug.path": "D:/spring/Techcareer_Offline_JavaSE/src/main/java/com/hamitmizrak/Main.java",
-    "settings.editor.selected.configurable": "reference.settingsdialog.project.grazie"
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler",
+    "settings.editor.splitter.proportion": "0.38173142"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -78,9 +87,9 @@
       <recent name="com.hamitmizrak" />
     </key>
   </component>
-  <component name="RunManager" selected="Application._8_JOptionalPane">
-    <configuration name="_4_DataTypesPrimitive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hamitmizrak._4_DataTypesPrimitive" />
+  <component name="RunManager" selected="Application._12_Random">
+    <configuration name="_10_System" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hamitmizrak._10_System" />
       <module name="Techcareer_Offline_JavaSE.main" />
       <extension name="coverage">
         <pattern>
@@ -92,8 +101,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_5_DataTypesWrapper" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hamitmizrak._5_DataTypesWrapper" />
+    <configuration name="_11_Math" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hamitmizrak._11_Math" />
       <module name="Techcareer_Offline_JavaSE.main" />
       <extension name="coverage">
         <pattern>
@@ -105,21 +114,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_6_NumbersSystem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hamitmizrak._6_NumbersSystem" />
-      <module name="Techcareer_Offline_JavaSE.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hamitmizrak.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="_7_Scanner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hamitmizrak._7_Scanner" />
+    <configuration name="_12_Random" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hamitmizrak._12_Random" />
       <module name="Techcareer_Offline_JavaSE.main" />
       <extension name="coverage">
         <pattern>
@@ -144,13 +140,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="_9_Cast" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hamitmizrak._9_Cast" />
+      <module name="Techcareer_Offline_JavaSE.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hamitmizrak.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application._12_Random" />
+        <item itemvalue="Application._11_Math" />
+        <item itemvalue="Application._10_System" />
+        <item itemvalue="Application._9_Cast" />
         <item itemvalue="Application._8_JOptionalPane" />
-        <item itemvalue="Application._7_Scanner" />
-        <item itemvalue="Application._6_NumbersSystem" />
-        <item itemvalue="Application._5_DataTypesWrapper" />
-        <item itemvalue="Application._4_DataTypesPrimitive" />
       </list>
     </recent_temporary>
   </component>
@@ -219,7 +228,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715769512707</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="jOptionalPane">
+      <option name="closed" value="true" />
+      <created>1715769632019</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1715769632019</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
