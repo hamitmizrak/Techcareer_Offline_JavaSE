@@ -30,12 +30,10 @@ public class _5_DataTypesWrapper {
         Character c5='Q';
         System.out.println(c5);
 
-       Integer data=null; //verebilirsiniz
+        Integer data=null; //verebilirsiniz
 
         // Boxing: Primiviti bir türü Wrapper çevirmek
         int primitiveNumber=44;
         Integer wrapperNumber=primitiveNumber;
-
-
     }
 }
