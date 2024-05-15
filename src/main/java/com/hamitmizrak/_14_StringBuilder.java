@@ -20,5 +20,11 @@ public class _14_StringBuilder {
         String toChange=stringBuilder.toString();
         System.out.println(toChange);
 
+        // StringBuffer
+        StringBuffer stringBuffer= new StringBuffer(tech1);
+        stringBuffer.append(tech2).append(tech3);
+        String toChange2=stringBuffer.toString();
+        System.out.println(toChange2);
+
     }
 }

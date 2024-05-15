@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="588a4993-db0d-4175-8c19-3830ef08ab7f" name="Changes" comment="Random">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hamitmizrak/_13_String.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hamitmizrak/_14_StringBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hamitmizrak/_15_StringTokenizer.java" afterDir="false" />
+    <list default="true" id="588a4993-db0d-4175-8c19-3830ef08ab7f" name="Changes" comment="StringTokenizer">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hamitmizrak/_14_StringBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hamitmizrak/_14_StringBuilder.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -270,7 +268,31 @@
       <option name="project" value="LOCAL" />
       <updated>1715793164295</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="String">
+      <option name="closed" value="true" />
+      <created>1715795900764</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1715795900764</updated>
+    </task>
+    <task id="LOCAL-00014" summary="StringBuilder">
+      <option name="closed" value="true" />
+      <created>1715795909744</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1715795909744</updated>
+    </task>
+    <task id="LOCAL-00015" summary="StringTokenizer">
+      <option name="closed" value="true" />
+      <created>1715795927109</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1715795927109</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -285,6 +307,9 @@
     <MESSAGE value="System" />
     <MESSAGE value="Math" />
     <MESSAGE value="Random" />
-    <option name="LAST_COMMIT_MESSAGE" value="Random" />
+    <MESSAGE value="String" />
+    <MESSAGE value="StringBuilder" />
+    <MESSAGE value="StringTokenizer" />
+    <option name="LAST_COMMIT_MESSAGE" value="StringTokenizer" />
   </component>
 </project>
