@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="588a4993-db0d-4175-8c19-3830ef08ab7f" name="Changes" comment="Primitive and Wrapper Class">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hamitmizrak/_6_NumbersSystem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hamitmizrak/_7_Scanner.java" afterDir="false" />
+    <list default="true" id="588a4993-db0d-4175-8c19-3830ef08ab7f" name="Changes" comment="Scanner">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hamitmizrak/_8_JOptionalPane.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,6 +63,7 @@
     "Gradle.Techcareer_Offline_JavaSE [:_5_DataTypesWrapper.main()].executor": "Run",
     "Gradle.Techcareer_Offline_JavaSE [:_6_NumbersSystem.main()].executor": "Run",
     "Gradle.Techcareer_Offline_JavaSE [:_7_Scanner.main()].executor": "Run",
+    "Gradle.Techcareer_Offline_JavaSE [:_8_JOptionalPane.main()].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
@@ -79,20 +79,7 @@
       <recent name="com.hamitmizrak" />
     </key>
   </component>
-  <component name="RunManager" selected="Application._7_Scanner">
-    <configuration name="_3_Variables" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hamitmizrak._3_Variables" />
-      <module name="Techcareer_Offline_JavaSE.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hamitmizrak.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application._8_JOptionalPane">
     <configuration name="_4_DataTypesPrimitive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.hamitmizrak._4_DataTypesPrimitive" />
       <module name="Techcareer_Offline_JavaSE.main" />
@@ -145,13 +132,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="_8_JOptionalPane" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hamitmizrak._8_JOptionalPane" />
+      <module name="Techcareer_Offline_JavaSE.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hamitmizrak.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application._8_JOptionalPane" />
         <item itemvalue="Application._7_Scanner" />
         <item itemvalue="Application._6_NumbersSystem" />
         <item itemvalue="Application._5_DataTypesWrapper" />
         <item itemvalue="Application._4_DataTypesPrimitive" />
-        <item itemvalue="Application._3_Variables" />
       </list>
     </recent_temporary>
   </component>
@@ -196,7 +196,23 @@
       <option name="project" value="LOCAL" />
       <updated>1715758960447</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Sayı Sistemi">
+      <option name="closed" value="true" />
+      <created>1715769285408</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1715769285408</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Scanner">
+      <option name="closed" value="true" />
+      <created>1715769299873</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1715769299873</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -204,6 +220,8 @@
     <MESSAGE value="Java Operators, Varaibles, psvm" />
     <MESSAGE value="README.md" />
     <MESSAGE value="Primitive and Wrapper Class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Primitive and Wrapper Class" />
+    <MESSAGE value="Sayı Sistemi" />
+    <MESSAGE value="Scanner" />
+    <option name="LAST_COMMIT_MESSAGE" value="Scanner" />
   </component>
 </project>
