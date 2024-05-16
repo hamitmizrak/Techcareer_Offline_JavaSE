@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="588a4993-db0d-4175-8c19-3830ef08ab7f" name="Changes" comment="StringTokenizer">
+    <list default="true" id="588a4993-db0d-4175-8c19-3830ef08ab7f" name="Changes" comment="StringBuffer">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hamitmizrak/_16_1_Conditional.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hamitmizrak/_16_2_Conditional_Ternary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hamitmizrak/_16_3_Conditional_SwitchCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hamitmizrak/_16_3_Conditional_multiple.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hamitmizrak/_14_StringBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hamitmizrak/_14_StringBuilder.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +66,11 @@
     "Gradle.Techcareer_Offline_JavaSE [:_13_String.main()].executor": "Run",
     "Gradle.Techcareer_Offline_JavaSE [:_14_StringBuilder.main()].executor": "Run",
     "Gradle.Techcareer_Offline_JavaSE [:_15_StringTokenizer.main()].executor": "Run",
+    "Gradle.Techcareer_Offline_JavaSE [:_16_2_Conditional_Ternary.main()].executor": "Run",
+    "Gradle.Techcareer_Offline_JavaSE [:_16_3_Conditional.main()].executor": "Run",
+    "Gradle.Techcareer_Offline_JavaSE [:_16_3_Conditional_SwitchCase.main()].executor": "Run",
+    "Gradle.Techcareer_Offline_JavaSE [:_16_3_Conditional_multiple.main()].executor": "Run",
+    "Gradle.Techcareer_Offline_JavaSE [:_16_Conditional.main()].executor": "Run",
     "Gradle.Techcareer_Offline_JavaSE [:_1_HelloWorld.main()].executor": "Run",
     "Gradle.Techcareer_Offline_JavaSE [:_2_PsvmOperators.main()].executor": "Run",
     "Gradle.Techcareer_Offline_JavaSE [:_3_Variables.main()].executor": "Run",
@@ -72,6 +81,7 @@
     "Gradle.Techcareer_Offline_JavaSE [:_8_JOptionalPane.main()].executor": "Run",
     "Gradle.Techcareer_Offline_JavaSE [:_9_Cast.main()].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "onboarding.tips.debug.path": "D:/spring/Techcareer_Offline_JavaSE/src/main/java/com/hamitmizrak/Main.java",
@@ -87,59 +97,7 @@
       <recent name="com.hamitmizrak" />
     </key>
   </component>
-  <component name="RunManager" selected="Application._15_StringTokenizer">
-    <configuration name="_11_Math" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hamitmizrak._11_Math" />
-      <module name="Techcareer_Offline_JavaSE.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hamitmizrak.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="_12_Random" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hamitmizrak._12_Random" />
-      <module name="Techcareer_Offline_JavaSE.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hamitmizrak.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="_13_String" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hamitmizrak._13_String" />
-      <module name="Techcareer_Offline_JavaSE.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hamitmizrak.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="_14_StringBuilder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hamitmizrak._14_StringBuilder" />
-      <module name="Techcareer_Offline_JavaSE.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hamitmizrak.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application._16_3_Conditional_SwitchCase">
     <configuration name="_15_StringTokenizer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.hamitmizrak._15_StringTokenizer" />
       <module name="Techcareer_Offline_JavaSE.main" />
@@ -153,13 +111,65 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="_16_1_Conditional" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hamitmizrak._16_1_Conditional" />
+      <module name="Techcareer_Offline_JavaSE.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hamitmizrak.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_16_2_Conditional_Ternary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hamitmizrak._16_2_Conditional_Ternary" />
+      <module name="Techcareer_Offline_JavaSE.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hamitmizrak.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_16_3_Conditional_SwitchCase" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hamitmizrak._16_3_Conditional_SwitchCase" />
+      <module name="Techcareer_Offline_JavaSE.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hamitmizrak.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_16_3_Conditional_multiple" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hamitmizrak._16_3_Conditional_multiple" />
+      <module name="Techcareer_Offline_JavaSE.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hamitmizrak.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application._16_3_Conditional_SwitchCase" />
+        <item itemvalue="Application._16_3_Conditional_multiple" />
+        <item itemvalue="Application._16_2_Conditional_Ternary" />
+        <item itemvalue="Application._16_1_Conditional" />
         <item itemvalue="Application._15_StringTokenizer" />
-        <item itemvalue="Application._14_StringBuilder" />
-        <item itemvalue="Application._13_String" />
-        <item itemvalue="Application._12_Random" />
-        <item itemvalue="Application._11_Math" />
       </list>
     </recent_temporary>
   </component>
@@ -292,7 +302,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715795927109</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="StringBuffer">
+      <option name="closed" value="true" />
+      <created>1715796054265</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1715796054265</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -310,6 +328,7 @@
     <MESSAGE value="String" />
     <MESSAGE value="StringBuilder" />
     <MESSAGE value="StringTokenizer" />
-    <option name="LAST_COMMIT_MESSAGE" value="StringTokenizer" />
+    <MESSAGE value="StringBuffer" />
+    <option name="LAST_COMMIT_MESSAGE" value="StringBuffer" />
   </component>
 </project>
