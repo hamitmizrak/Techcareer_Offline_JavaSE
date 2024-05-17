@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="588a4993-db0d-4175-8c19-3830ef08ab7f" name="Changes" comment="Example">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hamitmizrak/_19_1_Enum_1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hamitmizrak/_19_2_Enum_2.java" afterDir="false" />
+    <list default="true" id="588a4993-db0d-4175-8c19-3830ef08ab7f" name="Changes" comment="Enum">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hamitmizrak/_20_1_Date.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hamitmizrak/_20_2_Date.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hamitmizrak/_20_3_Calendar.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -80,6 +81,9 @@
     "Gradle.Techcareer_Offline_JavaSE [:_19_1_Enum.main()].executor": "Run",
     "Gradle.Techcareer_Offline_JavaSE [:_19_2_Enum_2.main()].executor": "Run",
     "Gradle.Techcareer_Offline_JavaSE [:_1_HelloWorld.main()].executor": "Run",
+    "Gradle.Techcareer_Offline_JavaSE [:_20_1_Date.main()].executor": "Run",
+    "Gradle.Techcareer_Offline_JavaSE [:_20_2_Date.main()].executor": "Run",
+    "Gradle.Techcareer_Offline_JavaSE [:_20_3_Calendar.main()].executor": "Run",
     "Gradle.Techcareer_Offline_JavaSE [:_2_PsvmOperators.main()].executor": "Run",
     "Gradle.Techcareer_Offline_JavaSE [:_3_Variables.main()].executor": "Run",
     "Gradle.Techcareer_Offline_JavaSE [:_4_DataTypesPrimitive.main()].executor": "Run",
@@ -105,46 +109,7 @@
       <recent name="com.hamitmizrak" />
     </key>
   </component>
-  <component name="RunManager" selected="Application._19_2_Enum_2">
-    <configuration name="_18_4_Example_VKI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hamitmizrak._18_4_Example_VKI" />
-      <module name="Techcareer_Offline_JavaSE.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hamitmizrak.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="_18_5_Example_TriangleHypotenuse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hamitmizrak._18_5_Example_TriangleHypotenuse" />
-      <module name="Techcareer_Offline_JavaSE.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hamitmizrak.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="_18_6_Example_SumEvenOdd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hamitmizrak._18_6_Example_SumEvenOdd" />
-      <module name="Techcareer_Offline_JavaSE.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hamitmizrak.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application._20_3_Calendar">
     <configuration name="_19_1_Enum_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.hamitmizrak._19_1_Enum_1" />
       <module name="Techcareer_Offline_JavaSE.main" />
@@ -171,13 +136,52 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="_20_1_Date" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hamitmizrak._20_1_Date" />
+      <module name="Techcareer_Offline_JavaSE.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hamitmizrak.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_20_2_Date" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hamitmizrak._20_2_Date" />
+      <module name="Techcareer_Offline_JavaSE.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hamitmizrak.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_20_3_Calendar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hamitmizrak._20_3_Calendar" />
+      <module name="Techcareer_Offline_JavaSE.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hamitmizrak.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application._20_3_Calendar" />
+        <item itemvalue="Application._20_2_Date" />
+        <item itemvalue="Application._20_1_Date" />
         <item itemvalue="Application._19_2_Enum_2" />
         <item itemvalue="Application._19_1_Enum_1" />
-        <item itemvalue="Application._18_6_Example_SumEvenOdd" />
-        <item itemvalue="Application._18_5_Example_TriangleHypotenuse" />
-        <item itemvalue="Application._18_4_Example_VKI" />
       </list>
     </recent_temporary>
   </component>
@@ -342,7 +346,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715885234019</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Enum">
+      <option name="closed" value="true" />
+      <created>1715927751420</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1715927751420</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -364,6 +376,7 @@
     <MESSAGE value="conditional, ternary, switchcase" />
     <MESSAGE value="Loop, For, While,Do-While" />
     <MESSAGE value="Example" />
-    <option name="LAST_COMMIT_MESSAGE" value="Example" />
+    <MESSAGE value="Enum" />
+    <option name="LAST_COMMIT_MESSAGE" value="Enum" />
   </component>
 </project>
