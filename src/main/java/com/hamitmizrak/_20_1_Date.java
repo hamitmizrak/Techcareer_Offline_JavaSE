@@ -1,5 +1,4 @@
 package com.hamitmizrak;
-
 import java.util.Date;
 
 public class _20_1_Date {

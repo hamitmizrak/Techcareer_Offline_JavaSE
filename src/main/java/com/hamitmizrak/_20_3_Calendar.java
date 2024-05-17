@@ -1,11 +1,8 @@
 package com.hamitmizrak;
 
-
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
-import java.util.Date;
 import java.util.Locale;
-
 
 public class _20_3_Calendar {
 
@@ -19,7 +16,7 @@ public class _20_3_Calendar {
 
         /////////////////////////////////////////////////////////////
         Locale locale= new Locale("tr","TR");
-        SimpleDateFormat simpleDateFormat=new SimpleDateFormat("dd-MM-yyyy HH:mm:ss zzzz",locale);
+        SimpleDateFormat simpleDateFormat=new SimpleDateFormat("dd/MM/yyyy HH:mm:ss zzzz",locale);
         Calendar calendar1=Calendar.getInstance();
         String turkishDate= simpleDateFormat.format(calendar1.getTime());
         System.out.println(turkishDate);
@@ -27,6 +24,5 @@ public class _20_3_Calendar {
         /////////////////////////////////////////////////////////////
         calendar1.add(Calendar.HOUR,6);
         System.out.println(calendar1.getTime());
-
     }
 }
