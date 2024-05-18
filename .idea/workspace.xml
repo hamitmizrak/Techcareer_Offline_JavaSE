@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="588a4993-db0d-4175-8c19-3830ef08ab7f" name="Changes" comment="Formatter">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hamitmizrak/_24_1_RecursiveMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hamitmizrak/_24_2_RecursiveMethodValidation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hamitmizrak/_24_3_RecursiveMethodValidationSwitch.java" afterDir="false" />
+    <list default="true" id="588a4993-db0d-4175-8c19-3830ef08ab7f" name="Changes" comment="Recursive,validation, iterative">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hamitmizrak/_25_1_Arrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hamitmizrak/_25_2_Arrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hamitmizrak/_25_3_Arrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hamitmizrak/_25_4_MultipleArrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hamitmizrak/_25_5_PaswordRePassword.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -97,6 +99,11 @@
     "Gradle.Techcareer_Offline_JavaSE [:_24_1_RecursiveMethod.main()].executor": "Run",
     "Gradle.Techcareer_Offline_JavaSE [:_24_2_RecursiveMethodValidation.main()].executor": "Run",
     "Gradle.Techcareer_Offline_JavaSE [:_24_3_RecursiveMethodValidationSwitch.main()].executor": "Run",
+    "Gradle.Techcareer_Offline_JavaSE [:_25_1_Arrays.main()].executor": "Run",
+    "Gradle.Techcareer_Offline_JavaSE [:_25_2_Arrays.main()].executor": "Run",
+    "Gradle.Techcareer_Offline_JavaSE [:_25_3_Arrays.main()].executor": "Run",
+    "Gradle.Techcareer_Offline_JavaSE [:_25_4_MultipleArrays.main()].executor": "Run",
+    "Gradle.Techcareer_Offline_JavaSE [:_25_5_PaswordRePassword.main()].executor": "Run",
     "Gradle.Techcareer_Offline_JavaSE [:_2_PsvmOperators.main()].executor": "Run",
     "Gradle.Techcareer_Offline_JavaSE [:_3_Variables.main()].executor": "Run",
     "Gradle.Techcareer_Offline_JavaSE [:_4_DataTypesPrimitive.main()].executor": "Run",
@@ -122,9 +129,9 @@
       <recent name="com.hamitmizrak" />
     </key>
   </component>
-  <component name="RunManager" selected="Application._24_3_RecursiveMethodValidationSwitch">
-    <configuration name="_23_1_Formatter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hamitmizrak._23_1_Formatter" />
+  <component name="RunManager" selected="Application._25_5_PaswordRePassword">
+    <configuration name="_25_1_Arrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hamitmizrak._25_1_Arrays" />
       <module name="Techcareer_Offline_JavaSE.main" />
       <extension name="coverage">
         <pattern>
@@ -136,8 +143,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_23_2_Formatter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hamitmizrak._23_2_Formatter" />
+    <configuration name="_25_2_Arrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hamitmizrak._25_2_Arrays" />
       <module name="Techcareer_Offline_JavaSE.main" />
       <extension name="coverage">
         <pattern>
@@ -149,8 +156,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_24_1_RecursiveMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hamitmizrak._24_1_RecursiveMethod" />
+    <configuration name="_25_3_Arrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hamitmizrak._25_3_Arrays" />
       <module name="Techcareer_Offline_JavaSE.main" />
       <extension name="coverage">
         <pattern>
@@ -162,8 +169,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_24_2_RecursiveMethodValidation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hamitmizrak._24_2_RecursiveMethodValidation" />
+    <configuration name="_25_4_MultipleArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hamitmizrak._25_4_MultipleArrays" />
       <module name="Techcareer_Offline_JavaSE.main" />
       <extension name="coverage">
         <pattern>
@@ -175,8 +182,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_24_3_RecursiveMethodValidationSwitch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hamitmizrak._24_3_RecursiveMethodValidationSwitch" />
+    <configuration name="_25_5_PaswordRePassword" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hamitmizrak._25_5_PaswordRePassword" />
       <module name="Techcareer_Offline_JavaSE.main" />
       <extension name="coverage">
         <pattern>
@@ -190,11 +197,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application._24_3_RecursiveMethodValidationSwitch" />
-        <item itemvalue="Application._24_2_RecursiveMethodValidation" />
-        <item itemvalue="Application._24_1_RecursiveMethod" />
-        <item itemvalue="Application._23_2_Formatter" />
-        <item itemvalue="Application._23_1_Formatter" />
+        <item itemvalue="Application._25_5_PaswordRePassword" />
+        <item itemvalue="Application._25_4_MultipleArrays" />
+        <item itemvalue="Application._25_3_Arrays" />
+        <item itemvalue="Application._25_2_Arrays" />
+        <item itemvalue="Application._25_1_Arrays" />
       </list>
     </recent_temporary>
   </component>
@@ -407,7 +414,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716034555935</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Recursive,validation, iterative">
+      <option name="closed" value="true" />
+      <created>1716037080484</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1716037080484</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -435,7 +450,8 @@
     <MESSAGE value="Access modifer,encapsulation, exception" />
     <MESSAGE value="Method, static,instance, overloading" />
     <MESSAGE value="Formatter" />
-    <option name="LAST_COMMIT_MESSAGE" value="Formatter" />
+    <MESSAGE value="Recursive,validation, iterative" />
+    <option name="LAST_COMMIT_MESSAGE" value="Recursive,validation, iterative" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
