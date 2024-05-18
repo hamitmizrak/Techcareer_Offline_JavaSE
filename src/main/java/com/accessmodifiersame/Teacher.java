@@ -1,4 +1,4 @@
-package accessmodifiersame;
+package com.accessmodifiersame;
 
 public class Teacher {
     public static void main(String[] args) {

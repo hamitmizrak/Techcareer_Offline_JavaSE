@@ -1,4 +1,4 @@
-package encapsulationdata;
+package com.encapsulationdata;
 
 // Encapsulation
 // POJO: Plain Old Java Object: field+getterandsetter

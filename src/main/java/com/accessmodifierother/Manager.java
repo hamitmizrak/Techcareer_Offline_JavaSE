@@ -1,6 +1,6 @@
-package accessmodifierother;
+package com.accessmodifierother;
 
-import accessmodifiersame.Student;
+import com.accessmodifiersame.Student;
 
 public class Manager {
     public static void main(String[] args) {

@@ -4,13 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="588a4993-db0d-4175-8c19-3830ef08ab7f" name="Changes" comment="Recursive,validation, iterative">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hamitmizrak/_25_1_Arrays.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hamitmizrak/_25_2_Arrays.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hamitmizrak/_25_3_Arrays.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hamitmizrak/_25_4_MultipleArrays.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hamitmizrak/_25_5_PaswordRePassword.java" afterDir="false" />
+    <list default="true" id="588a4993-db0d-4175-8c19-3830ef08ab7f" name="Changes" comment="Array, multipleArray">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/filedata/FileIOData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/filedata/FileWriteReaderScanner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/accessmodifierother/Manager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/accessmodifierother/Manager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/accessmodifiersame/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/accessmodifiersame/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/accessmodifiersame/Teacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/accessmodifiersame/Teacher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/encapsulationdata/MainEncapsulation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/encapsulationdata/MainEncapsulation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/encapsulationdata/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/encapsulationdata/Person.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +62,8 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Gradle.Techcareer_Offline_JavaSE [:FileIOData.main()].executor": "Run",
+    "Gradle.Techcareer_Offline_JavaSE [:FileWriteReaderScanner.main()].executor": "Run",
     "Gradle.Techcareer_Offline_JavaSE [:Main.main()].executor": "Run",
     "Gradle.Techcareer_Offline_JavaSE [:MainEncapsulation.main()].executor": "Run",
     "Gradle.Techcareer_Offline_JavaSE [:Student.main()].executor": "Run",
@@ -129,13 +134,13 @@
       <recent name="com.hamitmizrak" />
     </key>
   </component>
-  <component name="RunManager" selected="Application._25_5_PaswordRePassword">
-    <configuration name="_25_1_Arrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hamitmizrak._25_1_Arrays" />
+  <component name="RunManager" selected="Application.FileWriteReaderScanner">
+    <configuration name="FileIOData" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.filedata.FileIOData" />
       <module name="Techcareer_Offline_JavaSE.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hamitmizrak.*" />
+          <option name="PATTERN" value="com.filedata.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -143,12 +148,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_25_2_Arrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hamitmizrak._25_2_Arrays" />
+    <configuration name="FileWriteReaderScanner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.filedata.FileWriteReaderScanner" />
       <module name="Techcareer_Offline_JavaSE.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hamitmizrak.*" />
+          <option name="PATTERN" value="com.filedata.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -197,11 +202,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FileWriteReaderScanner" />
+        <item itemvalue="Application.FileIOData" />
         <item itemvalue="Application._25_5_PaswordRePassword" />
         <item itemvalue="Application._25_4_MultipleArrays" />
         <item itemvalue="Application._25_3_Arrays" />
-        <item itemvalue="Application._25_2_Arrays" />
-        <item itemvalue="Application._25_1_Arrays" />
       </list>
     </recent_temporary>
   </component>
@@ -422,7 +427,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716037080484</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Array, multipleArray">
+      <option name="closed" value="true" />
+      <created>1716044166424</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1716044166424</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -451,7 +464,8 @@
     <MESSAGE value="Method, static,instance, overloading" />
     <MESSAGE value="Formatter" />
     <MESSAGE value="Recursive,validation, iterative" />
-    <option name="LAST_COMMIT_MESSAGE" value="Recursive,validation, iterative" />
+    <MESSAGE value="Array, multipleArray" />
+    <option name="LAST_COMMIT_MESSAGE" value="Array, multipleArray" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -485,6 +499,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/hamitmizrak/_24_1_RecursiveMethod.java</url>
           <line>39</line>
           <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/filedata/FileWriteReaderScanner.java</url>
+          <line>50</line>
+          <option name="timeStamp" value="13" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/hamitmizrak/_24_1_RecursiveMethod.java</url>

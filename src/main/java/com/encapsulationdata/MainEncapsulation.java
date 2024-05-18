@@ -1,4 +1,4 @@
-package encapsulationdata;
+package com.encapsulationdata;
 
 public class MainEncapsulation {
 
