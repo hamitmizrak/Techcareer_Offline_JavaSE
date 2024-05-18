@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="588a4993-db0d-4175-8c19-3830ef08ab7f" name="Changes" comment="Method, static,instance, overloading">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hamitmizrak/_23_1_Formatter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hamitmizrak/_23_2_Formatter.java" afterDir="false" />
+    <list default="true" id="588a4993-db0d-4175-8c19-3830ef08ab7f" name="Changes" comment="Formatter">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hamitmizrak/_24_1_RecursiveMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hamitmizrak/_24_2_RecursiveMethodValidation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hamitmizrak/_24_3_RecursiveMethodValidationSwitch.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -93,6 +94,9 @@
     "Gradle.Techcareer_Offline_JavaSE [:_22_2_MethodStatic.main()].executor": "Run",
     "Gradle.Techcareer_Offline_JavaSE [:_23_1_Formatter.main()].executor": "Run",
     "Gradle.Techcareer_Offline_JavaSE [:_23_2_Formatter.main()].executor": "Run",
+    "Gradle.Techcareer_Offline_JavaSE [:_24_1_RecursiveMethod.main()].executor": "Run",
+    "Gradle.Techcareer_Offline_JavaSE [:_24_2_RecursiveMethodValidation.main()].executor": "Run",
+    "Gradle.Techcareer_Offline_JavaSE [:_24_3_RecursiveMethodValidationSwitch.main()].executor": "Run",
     "Gradle.Techcareer_Offline_JavaSE [:_2_PsvmOperators.main()].executor": "Run",
     "Gradle.Techcareer_Offline_JavaSE [:_3_Variables.main()].executor": "Run",
     "Gradle.Techcareer_Offline_JavaSE [:_4_DataTypesPrimitive.main()].executor": "Run",
@@ -118,46 +122,7 @@
       <recent name="com.hamitmizrak" />
     </key>
   </component>
-  <component name="RunManager" selected="Application._23_2_Formatter">
-    <configuration name="MainEncapsulation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="encapsulationdata.MainEncapsulation" />
-      <module name="Techcareer_Offline_JavaSE.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="encapsulationdata.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="_22_1_Method" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hamitmizrak._22_1_Method" />
-      <module name="Techcareer_Offline_JavaSE.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hamitmizrak.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="_22_2_MethodStatic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hamitmizrak._22_2_MethodStatic" />
-      <module name="Techcareer_Offline_JavaSE.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hamitmizrak.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application._24_3_RecursiveMethodValidationSwitch">
     <configuration name="_23_1_Formatter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.hamitmizrak._23_1_Formatter" />
       <module name="Techcareer_Offline_JavaSE.main" />
@@ -184,13 +149,52 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="_24_1_RecursiveMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hamitmizrak._24_1_RecursiveMethod" />
+      <module name="Techcareer_Offline_JavaSE.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hamitmizrak.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_24_2_RecursiveMethodValidation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hamitmizrak._24_2_RecursiveMethodValidation" />
+      <module name="Techcareer_Offline_JavaSE.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hamitmizrak.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_24_3_RecursiveMethodValidationSwitch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hamitmizrak._24_3_RecursiveMethodValidationSwitch" />
+      <module name="Techcareer_Offline_JavaSE.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hamitmizrak.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application._24_3_RecursiveMethodValidationSwitch" />
+        <item itemvalue="Application._24_2_RecursiveMethodValidation" />
+        <item itemvalue="Application._24_1_RecursiveMethod" />
         <item itemvalue="Application._23_2_Formatter" />
         <item itemvalue="Application._23_1_Formatter" />
-        <item itemvalue="Application._22_2_MethodStatic" />
-        <item itemvalue="Application._22_1_Method" />
-        <item itemvalue="Application.MainEncapsulation" />
       </list>
     </recent_temporary>
   </component>
@@ -395,7 +399,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716022306222</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Formatter">
+      <option name="closed" value="true" />
+      <created>1716034555935</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1716034555935</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -422,6 +434,52 @@
     <MESSAGE value="Date,Calendar,LocalDate" />
     <MESSAGE value="Access modifer,encapsulation, exception" />
     <MESSAGE value="Method, static,instance, overloading" />
-    <option name="LAST_COMMIT_MESSAGE" value="Method, static,instance, overloading" />
+    <MESSAGE value="Formatter" />
+    <option name="LAST_COMMIT_MESSAGE" value="Formatter" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/hamitmizrak/_24_1_RecursiveMethod.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/hamitmizrak/_24_1_RecursiveMethod.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/hamitmizrak/_24_1_RecursiveMethod.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/hamitmizrak/_24_1_RecursiveMethod.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/hamitmizrak/_24_1_RecursiveMethod.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/hamitmizrak/_24_1_RecursiveMethod.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/hamitmizrak/_24_1_RecursiveMethod.java</url>
+          <line>18</line>
+          <properties class="com.hamitmizrak._24_1_RecursiveMethod" method="recursiveFactorial">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
