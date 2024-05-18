@@ -4,16 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="588a4993-db0d-4175-8c19-3830ef08ab7f" name="Changes" comment="Date,Calendar,LocalDate">
-      <change afterPath="$PROJECT_DIR$/src/main/java/accessmodifierother/Manager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/accessmodifiersame/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/accessmodifiersame/Teacher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hamitmizrak/HamitMizrakException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hamitmizrak/_21_1_Exception.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hamitmizrak/exception_error.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/encapsulationdata/MainEncapsulation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/encapsulationdata/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="588a4993-db0d-4175-8c19-3830ef08ab7f" name="Changes" comment="Access modifer,encapsulation, exception">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hamitmizrak/_22_1_Method.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hamitmizrak/_22_2_MethodStatic.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -96,6 +89,8 @@
     "Gradle.Techcareer_Offline_JavaSE [:_20_4_LocalDate.main()].executor": "Run",
     "Gradle.Techcareer_Offline_JavaSE [:_20_5_LocalDate.main()].executor": "Run",
     "Gradle.Techcareer_Offline_JavaSE [:_21_1_Exception.main()].executor": "Run",
+    "Gradle.Techcareer_Offline_JavaSE [:_22_1_Method.main()].executor": "Run",
+    "Gradle.Techcareer_Offline_JavaSE [:_22_2_MethodStatic.main()].executor": "Run",
     "Gradle.Techcareer_Offline_JavaSE [:_2_PsvmOperators.main()].executor": "Run",
     "Gradle.Techcareer_Offline_JavaSE [:_3_Variables.main()].executor": "Run",
     "Gradle.Techcareer_Offline_JavaSE [:_4_DataTypesPrimitive.main()].executor": "Run",
@@ -121,7 +116,7 @@
       <recent name="com.hamitmizrak" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MainEncapsulation">
+  <component name="RunManager" selected="Application._22_2_MethodStatic">
     <configuration name="MainEncapsulation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="encapsulationdata.MainEncapsulation" />
       <module name="Techcareer_Offline_JavaSE.main" />
@@ -161,8 +156,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_20_5_LocalDate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hamitmizrak._20_5_LocalDate" />
+    <configuration name="_22_1_Method" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hamitmizrak._22_1_Method" />
       <module name="Techcareer_Offline_JavaSE.main" />
       <extension name="coverage">
         <pattern>
@@ -174,8 +169,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_21_1_Exception" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hamitmizrak._21_1_Exception" />
+    <configuration name="_22_2_MethodStatic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hamitmizrak._22_2_MethodStatic" />
       <module name="Techcareer_Offline_JavaSE.main" />
       <extension name="coverage">
         <pattern>
@@ -189,11 +184,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application._22_2_MethodStatic" />
+        <item itemvalue="Application._22_1_Method" />
         <item itemvalue="Application.MainEncapsulation" />
         <item itemvalue="Application.Teacher" />
         <item itemvalue="Application.Student" />
-        <item itemvalue="Application._21_1_Exception" />
-        <item itemvalue="Application._20_5_LocalDate" />
       </list>
     </recent_temporary>
   </component>
@@ -382,7 +377,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715931473468</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Access modifer,encapsulation, exception">
+      <option name="closed" value="true" />
+      <created>1716020608092</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1716020608092</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -407,6 +410,7 @@
     <MESSAGE value="Enum" />
     <MESSAGE value="Date,Calendar" />
     <MESSAGE value="Date,Calendar,LocalDate" />
-    <option name="LAST_COMMIT_MESSAGE" value="Date,Calendar,LocalDate" />
+    <MESSAGE value="Access modifer,encapsulation, exception" />
+    <option name="LAST_COMMIT_MESSAGE" value="Access modifer,encapsulation, exception" />
   </component>
 </project>
