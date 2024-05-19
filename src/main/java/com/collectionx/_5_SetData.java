@@ -2,7 +2,7 @@ package com.collectionx;
 
 import java.util.*;
 
-public class _3_SetData {
+public class _5_SetData {
 
     // HASHSET
     public static void setHashSet(){

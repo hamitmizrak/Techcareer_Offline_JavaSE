@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="588a4993-db0d-4175-8c19-3830ef08ab7f" name="Changes" comment="Set">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/collectionx/_2_List_Vector.java" afterDir="false" />
+    <list default="true" id="588a4993-db0d-4175-8c19-3830ef08ab7f" name="Changes" comment="Vector">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/collectionx/_3_Stack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/collectionx/_4_Queue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/collectionx/_2_SetData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/collectionx/_3_SetData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/collectionx/_3_SetData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/collectionx/_5_SetData.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,8 +110,10 @@
     "Gradle.Techcareer_Offline_JavaSE [:_2_List_Vector.main()].executor": "Run",
     "Gradle.Techcareer_Offline_JavaSE [:_2_PsvmOperators.main()].executor": "Run",
     "Gradle.Techcareer_Offline_JavaSE [:_2_SetData.main()].executor": "Run",
+    "Gradle.Techcareer_Offline_JavaSE [:_3_Stack.main()].executor": "Run",
     "Gradle.Techcareer_Offline_JavaSE [:_3_Variables.main()].executor": "Run",
     "Gradle.Techcareer_Offline_JavaSE [:_4_DataTypesPrimitive.main()].executor": "Run",
+    "Gradle.Techcareer_Offline_JavaSE [:_4_Queue.main()].executor": "Run",
     "Gradle.Techcareer_Offline_JavaSE [:_5_DataTypesWrapper.main()].executor": "Run",
     "Gradle.Techcareer_Offline_JavaSE [:_6_NumbersSystem.main()].executor": "Run",
     "Gradle.Techcareer_Offline_JavaSE [:_7_Scanner.main()].executor": "Run",
@@ -134,33 +137,7 @@
       <recent name="com.hamitmizrak" />
     </key>
   </component>
-  <component name="RunManager" selected="Application._2_List_Vector">
-    <configuration name="GenericsMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.generics.GenericsMain" />
-      <module name="Techcareer_Offline_JavaSE.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.generics.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="_17_2_Loop_While" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hamitmizrak._17_2_Loop_While" />
-      <module name="Techcareer_Offline_JavaSE.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hamitmizrak.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application._4_Queue">
     <configuration name="_1_ListData" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.collectionx._1_ListData" />
       <module name="Techcareer_Offline_JavaSE.main" />
@@ -187,8 +164,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_3_SetData" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.collectionx._3_SetData" />
+    <configuration name="_3_Stack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.collectionx._3_Stack" />
+      <module name="Techcareer_Offline_JavaSE.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.collectionx.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_4_Queue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.collectionx._4_Queue" />
+      <module name="Techcareer_Offline_JavaSE.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.collectionx.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_5_SetData" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.collectionx._5_SetData" />
       <module name="Techcareer_Offline_JavaSE.main" />
       <extension name="coverage">
         <pattern>
@@ -202,11 +205,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application._4_Queue" />
+        <item itemvalue="Application._3_Stack" />
         <item itemvalue="Application._2_List_Vector" />
-        <item itemvalue="Application._3_SetData" />
+        <item itemvalue="Application._5_SetData" />
         <item itemvalue="Application._1_ListData" />
-        <item itemvalue="Application.GenericsMain" />
-        <item itemvalue="Application._17_2_Loop_While" />
       </list>
     </recent_temporary>
   </component>
@@ -467,12 +470,19 @@
       <option name="project" value="LOCAL" />
       <updated>1716127648628</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Vector">
+      <option name="closed" value="true" />
+      <created>1716130271964</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1716130271964</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Scanner" />
     <MESSAGE value="jOptionalPane" />
     <MESSAGE value="Cast" />
     <MESSAGE value="System" />
@@ -497,7 +507,8 @@
     <MESSAGE value="GenericsData" />
     <MESSAGE value="List" />
     <MESSAGE value="Set" />
-    <option name="LAST_COMMIT_MESSAGE" value="Set" />
+    <MESSAGE value="Vector" />
+    <option name="LAST_COMMIT_MESSAGE" value="Vector" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -547,9 +558,9 @@
           <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/main/java/com/collectionx/_3_SetData.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/com/collectionx/_5_SetData.java</url>
           <line>151</line>
-          <properties class="com.collectionx._3_SetData" method="forEachLoopTreeSet">
+          <properties class="com.collectionx._5_SetData" method="forEachLoopTreeSet">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
