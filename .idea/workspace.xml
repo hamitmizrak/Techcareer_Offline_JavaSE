@@ -4,16 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="588a4993-db0d-4175-8c19-3830ef08ab7f" name="Changes" comment="Array, multipleArray">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/filedata/FileIOData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/filedata/FileWriteReaderScanner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="588a4993-db0d-4175-8c19-3830ef08ab7f" name="Changes" comment="FileIO, Reader, Writer">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/generics/GenericsData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/generics/GenericsMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/accessmodifierother/Manager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/accessmodifierother/Manager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/accessmodifiersame/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/accessmodifiersame/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/accessmodifiersame/Teacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/accessmodifiersame/Teacher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/encapsulationdata/MainEncapsulation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/encapsulationdata/MainEncapsulation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/encapsulationdata/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/encapsulationdata/Person.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,6 +58,7 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "Gradle.Techcareer_Offline_JavaSE [:FileIOData.main()].executor": "Run",
     "Gradle.Techcareer_Offline_JavaSE [:FileWriteReaderScanner.main()].executor": "Run",
+    "Gradle.Techcareer_Offline_JavaSE [:GenericsMain.main()].executor": "Run",
     "Gradle.Techcareer_Offline_JavaSE [:Main.main()].executor": "Run",
     "Gradle.Techcareer_Offline_JavaSE [:MainEncapsulation.main()].executor": "Run",
     "Gradle.Techcareer_Offline_JavaSE [:Student.main()].executor": "Run",
@@ -81,6 +76,7 @@
     "Gradle.Techcareer_Offline_JavaSE [:_16_Conditional.main()].executor": "Run",
     "Gradle.Techcareer_Offline_JavaSE [:_17_1_Loop_For.main()].executor": "Run",
     "Gradle.Techcareer_Offline_JavaSE [:_17_1_Loop_While.main()].executor": "Run",
+    "Gradle.Techcareer_Offline_JavaSE [:_17_2_Loop_While.main()].executor": "Debug",
     "Gradle.Techcareer_Offline_JavaSE [:_17_3_Loop_DoWhile.main()].executor": "Run",
     "Gradle.Techcareer_Offline_JavaSE [:_18_1_Example.main()].executor": "Run",
     "Gradle.Techcareer_Offline_JavaSE [:_18_2_Example.main()].executor": "Run",
@@ -134,7 +130,7 @@
       <recent name="com.hamitmizrak" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FileWriteReaderScanner">
+  <component name="RunManager" selected="Application.GenericsMain">
     <configuration name="FileIOData" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.filedata.FileIOData" />
       <module name="Techcareer_Offline_JavaSE.main" />
@@ -161,12 +157,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_25_3_Arrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hamitmizrak._25_3_Arrays" />
+    <configuration name="GenericsMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.generics.GenericsMain" />
       <module name="Techcareer_Offline_JavaSE.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hamitmizrak.*" />
+          <option name="PATTERN" value="com.generics.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -174,8 +170,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_25_4_MultipleArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hamitmizrak._25_4_MultipleArrays" />
+    <configuration name="_17_2_Loop_While" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hamitmizrak._17_2_Loop_While" />
       <module name="Techcareer_Offline_JavaSE.main" />
       <extension name="coverage">
         <pattern>
@@ -202,11 +198,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GenericsMain" />
+        <item itemvalue="Application._17_2_Loop_While" />
         <item itemvalue="Application.FileWriteReaderScanner" />
         <item itemvalue="Application.FileIOData" />
         <item itemvalue="Application._25_5_PaswordRePassword" />
-        <item itemvalue="Application._25_4_MultipleArrays" />
-        <item itemvalue="Application._25_3_Arrays" />
       </list>
     </recent_temporary>
   </component>
@@ -435,12 +431,19 @@
       <option name="project" value="LOCAL" />
       <updated>1716044166424</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="FileIO, Reader, Writer">
+      <option name="closed" value="true" />
+      <created>1716054931846</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1716054931846</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Java Operators, Varaibles, psvm" />
     <MESSAGE value="README.md" />
     <MESSAGE value="Primitive and Wrapper Class" />
     <MESSAGE value="Sayı Sistemi" />
@@ -465,7 +468,8 @@
     <MESSAGE value="Formatter" />
     <MESSAGE value="Recursive,validation, iterative" />
     <MESSAGE value="Array, multipleArray" />
-    <option name="LAST_COMMIT_MESSAGE" value="Array, multipleArray" />
+    <MESSAGE value="FileIO, Reader, Writer" />
+    <option name="LAST_COMMIT_MESSAGE" value="FileIO, Reader, Writer" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
