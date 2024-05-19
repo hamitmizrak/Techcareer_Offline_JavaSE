@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="588a4993-db0d-4175-8c19-3830ef08ab7f" name="Changes" comment="Stack and Queue">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/collectionx/_6_MapData.java" afterDir="false" />
+    <list default="true" id="588a4993-db0d-4175-8c19-3830ef08ab7f" name="Changes" comment="Map, Hashtable">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/java8data/Java8Properties.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,6 +58,7 @@
     "Gradle.Techcareer_Offline_JavaSE [:FileIOData.main()].executor": "Run",
     "Gradle.Techcareer_Offline_JavaSE [:FileWriteReaderScanner.main()].executor": "Run",
     "Gradle.Techcareer_Offline_JavaSE [:GenericsMain.main()].executor": "Run",
+    "Gradle.Techcareer_Offline_JavaSE [:Java8Properties.main()].executor": "Run",
     "Gradle.Techcareer_Offline_JavaSE [:ListData.main()].executor": "Run",
     "Gradle.Techcareer_Offline_JavaSE [:Main.main()].executor": "Run",
     "Gradle.Techcareer_Offline_JavaSE [:MainEncapsulation.main()].executor": "Run",
@@ -136,7 +137,20 @@
       <recent name="com.hamitmizrak" />
     </key>
   </component>
-  <component name="RunManager" selected="Application._6_MapData">
+  <component name="RunManager" selected="Application.Java8Properties">
+    <configuration name="Java8Properties" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java8data.Java8Properties" />
+      <module name="Techcareer_Offline_JavaSE.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.java8data.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="_2_List_Vector" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.collectionx._2_List_Vector" />
       <module name="Techcareer_Offline_JavaSE.main" />
@@ -176,19 +190,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_5_SetData" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.collectionx._5_SetData" />
-      <module name="Techcareer_Offline_JavaSE.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.collectionx.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="_6_MapData" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.collectionx._6_MapData" />
       <module name="Techcareer_Offline_JavaSE.main" />
@@ -204,11 +205,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Java8Properties" />
         <item itemvalue="Application._6_MapData" />
         <item itemvalue="Application._4_Queue" />
         <item itemvalue="Application._3_Stack" />
         <item itemvalue="Application._2_List_Vector" />
-        <item itemvalue="Application._5_SetData" />
       </list>
     </recent_temporary>
   </component>
@@ -485,12 +486,19 @@
       <option name="project" value="LOCAL" />
       <updated>1716131767323</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="Map, Hashtable">
+      <option name="closed" value="true" />
+      <created>1716138850391</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1716138850391</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Cast" />
     <MESSAGE value="System" />
     <MESSAGE value="Math" />
     <MESSAGE value="Random" />
@@ -515,7 +523,8 @@
     <MESSAGE value="Set" />
     <MESSAGE value="Vector" />
     <MESSAGE value="Stack and Queue" />
-    <option name="LAST_COMMIT_MESSAGE" value="Stack and Queue" />
+    <MESSAGE value="Map, Hashtable" />
+    <option name="LAST_COMMIT_MESSAGE" value="Map, Hashtable" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -554,6 +563,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/filedata/FileWriteReaderScanner.java</url>
           <line>50</line>
           <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/java8data/Java8Properties.java</url>
+          <line>55</line>
+          <option name="timeStamp" value="15" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/hamitmizrak/_24_1_RecursiveMethod.java</url>
