@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="588a4993-db0d-4175-8c19-3830ef08ab7f" name="Changes" comment="GenericsData">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/collectionx/_1_ListData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/collectionx/_2_SetData.java" afterDir="false" />
+    <list default="true" id="588a4993-db0d-4175-8c19-3830ef08ab7f" name="Changes" comment="Set">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/collectionx/_2_List_Vector.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/collectionx/_2_SetData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/collectionx/_3_SetData.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,6 +106,7 @@
     "Gradle.Techcareer_Offline_JavaSE [:_25_3_Arrays.main()].executor": "Run",
     "Gradle.Techcareer_Offline_JavaSE [:_25_4_MultipleArrays.main()].executor": "Run",
     "Gradle.Techcareer_Offline_JavaSE [:_25_5_PaswordRePassword.main()].executor": "Run",
+    "Gradle.Techcareer_Offline_JavaSE [:_2_List_Vector.main()].executor": "Run",
     "Gradle.Techcareer_Offline_JavaSE [:_2_PsvmOperators.main()].executor": "Run",
     "Gradle.Techcareer_Offline_JavaSE [:_2_SetData.main()].executor": "Run",
     "Gradle.Techcareer_Offline_JavaSE [:_3_Variables.main()].executor": "Run",
@@ -133,20 +134,7 @@
       <recent name="com.hamitmizrak" />
     </key>
   </component>
-  <component name="RunManager" selected="Application._2_SetData">
-    <configuration name="FileWriteReaderScanner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.filedata.FileWriteReaderScanner" />
-      <module name="Techcareer_Offline_JavaSE.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.filedata.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application._2_List_Vector">
     <configuration name="GenericsMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.generics.GenericsMain" />
       <module name="Techcareer_Offline_JavaSE.main" />
@@ -186,8 +174,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_2_SetData" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.collectionx._2_SetData" />
+    <configuration name="_2_List_Vector" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.collectionx._2_List_Vector" />
+      <module name="Techcareer_Offline_JavaSE.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.collectionx.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_3_SetData" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.collectionx._3_SetData" />
       <module name="Techcareer_Offline_JavaSE.main" />
       <extension name="coverage">
         <pattern>
@@ -201,11 +202,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application._2_SetData" />
+        <item itemvalue="Application._2_List_Vector" />
+        <item itemvalue="Application._3_SetData" />
         <item itemvalue="Application._1_ListData" />
         <item itemvalue="Application.GenericsMain" />
         <item itemvalue="Application._17_2_Loop_While" />
-        <item itemvalue="Application.FileWriteReaderScanner" />
       </list>
     </recent_temporary>
   </component>
@@ -450,13 +451,27 @@
       <option name="project" value="LOCAL" />
       <updated>1716121143997</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="List">
+      <option name="closed" value="true" />
+      <created>1716127636622</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1716127636622</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Set">
+      <option name="closed" value="true" />
+      <created>1716127648628</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1716127648628</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Primitive and Wrapper Class" />
-    <MESSAGE value="Sayı Sistemi" />
     <MESSAGE value="Scanner" />
     <MESSAGE value="jOptionalPane" />
     <MESSAGE value="Cast" />
@@ -480,7 +495,9 @@
     <MESSAGE value="Array, multipleArray" />
     <MESSAGE value="FileIO, Reader, Writer" />
     <MESSAGE value="GenericsData" />
-    <option name="LAST_COMMIT_MESSAGE" value="GenericsData" />
+    <MESSAGE value="List" />
+    <MESSAGE value="Set" />
+    <option name="LAST_COMMIT_MESSAGE" value="Set" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -530,9 +547,9 @@
           <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/main/java/com/collectionx/_2_SetData.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/com/collectionx/_3_SetData.java</url>
           <line>151</line>
-          <properties class="com.collectionx._2_SetData" method="forEachLoopTreeSet">
+          <properties class="com.collectionx._3_SetData" method="forEachLoopTreeSet">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
