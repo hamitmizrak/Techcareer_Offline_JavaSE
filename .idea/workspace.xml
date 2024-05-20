@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="588a4993-db0d-4175-8c19-3830ef08ab7f" name="Changes" comment="Final,static">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/oopx/inheritancex/MainInheritance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/oopx/inheritancex/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/oopx/inheritancex/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/oopx/inheritancex/Teacher.java" afterDir="false" />
+    <list default="true" id="588a4993-db0d-4175-8c19-3830ef08ab7f" name="Changes" comment="Inheritance">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oopx/inheritancex/MainInheritance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/oopx/inheritancex/MainInheritance.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -535,12 +532,19 @@
       <option name="project" value="LOCAL" />
       <updated>1716201506845</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="Inheritance">
+      <option name="closed" value="true" />
+      <created>1716203642492</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1716203642492</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="StringBuilder" />
     <MESSAGE value="StringTokenizer" />
     <MESSAGE value="StringBuffer" />
     <MESSAGE value="conditional, ternary, switchcase" />
@@ -565,7 +569,8 @@
     <MESSAGE value="break,continue, return" />
     <MESSAGE value="Class" />
     <MESSAGE value="Final,static" />
-    <option name="LAST_COMMIT_MESSAGE" value="Final,static" />
+    <MESSAGE value="Inheritance" />
+    <option name="LAST_COMMIT_MESSAGE" value="Inheritance" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
