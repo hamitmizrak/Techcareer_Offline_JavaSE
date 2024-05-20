@@ -56,4 +56,10 @@ public class Student extends Person implements Serializable  {
         System.out.println("Öğrenci Okuldan Geldi");
     }
 
+
+    @Override
+    public void interfaceGovdeliMethod() {
+        super.interfaceGovdeliMethod();
+        System.out.println("Student tinterface Gövdeli");
+    }
 }//end Class

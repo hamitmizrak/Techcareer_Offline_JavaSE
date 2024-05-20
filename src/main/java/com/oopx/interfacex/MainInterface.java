@@ -13,6 +13,7 @@ public class MainInterface {
         student.eat();
         student.goToSchool();
         student.comeFromSchool();
+        student.interfaceGovdeliMethod();
 
         System.out.println("**********************************");
 
@@ -24,5 +25,6 @@ public class MainInterface {
         teacher.eat();
         teacher.goToSchool();
         teacher.comeFromSchool();
+        teacher.interfaceGovdeliMethod();
     }
 }
