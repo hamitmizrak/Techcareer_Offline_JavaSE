@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="588a4993-db0d-4175-8c19-3830ef08ab7f" name="Changes" comment="Inheritance">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/oopx/abstractx/MainAbstract.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/oopx/abstractx/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/oopx/abstractx/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/oopx/abstractx/Teacher.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/oopx/inheritancex/MainInheritance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/oopx/inheritancex/MainInheritance.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,6 +64,7 @@
     "Gradle.Techcareer_Offline_JavaSE [:Java8Properties.main()].executor": "Run",
     "Gradle.Techcareer_Offline_JavaSE [:ListData.main()].executor": "Run",
     "Gradle.Techcareer_Offline_JavaSE [:Main.main()].executor": "Run",
+    "Gradle.Techcareer_Offline_JavaSE [:MainAbstract.main()].executor": "Run",
     "Gradle.Techcareer_Offline_JavaSE [:MainClass.main()].executor": "Run",
     "Gradle.Techcareer_Offline_JavaSE [:MainEncapsulation.main()].executor": "Run",
     "Gradle.Techcareer_Offline_JavaSE [:MainInheritance.main()].executor": "Run",
@@ -127,12 +131,16 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/spring/Techcareer_Offline_JavaSE/src/main/java/com/oopx/abstractx",
     "onboarding.tips.debug.path": "D:/spring/Techcareer_Offline_JavaSE/src/main/java/com/hamitmizrak/Main.java",
     "settings.editor.selected.configurable": "File.Encoding",
     "settings.editor.splitter.proportion": "0.38173142"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\spring\Techcareer_Offline_JavaSE\src\main\java\com\oopx\abstractx" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\spring\Techcareer_Offline_JavaSE\src\main\java\com\hamitmizrak" />
     </key>
@@ -143,7 +151,7 @@
       <recent name="com.collectionx" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MainInheritance">
+  <component name="RunManager" selected="Application.MainAbstract">
     <configuration name="FinalData" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.oopx.FinalData" />
       <module name="Techcareer_Offline_JavaSE.main" />
@@ -157,12 +165,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Java8Properties" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java8data.Java8Properties" />
+    <configuration name="MainAbstract" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.oopx.abstractx.MainAbstract" />
       <module name="Techcareer_Offline_JavaSE.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.java8data.*" />
+          <option name="PATTERN" value="com.oopx.abstractx.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -211,11 +219,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainAbstract" />
         <item itemvalue="Application.MainInheritance" />
         <item itemvalue="Application._17_4_BreakReturnContinue" />
         <item itemvalue="Application.StaticFinalData" />
         <item itemvalue="Application.MainClass" />
-        <item itemvalue="Application.Java8Properties" />
       </list>
     </recent_temporary>
   </component>
@@ -540,7 +548,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716203642492</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="Inheritance">
+      <option name="closed" value="true" />
+      <created>1716203682909</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1716203682909</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
