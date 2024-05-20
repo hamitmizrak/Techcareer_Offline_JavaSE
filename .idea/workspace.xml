@@ -4,12 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="588a4993-db0d-4175-8c19-3830ef08ab7f" name="Changes" comment="Inheritance">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/oopx/abstractx/MainAbstract.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/oopx/abstractx/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/oopx/abstractx/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/oopx/abstractx/Teacher.java" afterDir="false" />
+    <list default="true" id="588a4993-db0d-4175-8c19-3830ef08ab7f" name="Changes" comment="Abstract">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/oopx/interfacex/IPersonCommonFeatures.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/oopx/interfacex/MainInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/oopx/interfacex/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/oopx/interfacex/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/oopx/interfacex/Teacher.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oopx/abstractx/MainAbstract.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/oopx/abstractx/MainAbstract.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oopx/abstractx/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/oopx/abstractx/Person.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +28,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -68,6 +72,7 @@
     "Gradle.Techcareer_Offline_JavaSE [:MainClass.main()].executor": "Run",
     "Gradle.Techcareer_Offline_JavaSE [:MainEncapsulation.main()].executor": "Run",
     "Gradle.Techcareer_Offline_JavaSE [:MainInheritance.main()].executor": "Run",
+    "Gradle.Techcareer_Offline_JavaSE [:MainInterface.main()].executor": "Run",
     "Gradle.Techcareer_Offline_JavaSE [:StaticFinalData.main()].executor": "Run",
     "Gradle.Techcareer_Offline_JavaSE [:Student.main()].executor": "Run",
     "Gradle.Techcareer_Offline_JavaSE [:Teacher.main()].executor": "Run",
@@ -131,7 +136,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/spring/Techcareer_Offline_JavaSE/src/main/java/com/oopx/abstractx",
+    "last_opened_file_path": "D:/spring/Techcareer_Offline_JavaSE/src/main/java/com/oopx/interfacex",
     "onboarding.tips.debug.path": "D:/spring/Techcareer_Offline_JavaSE/src/main/java/com/hamitmizrak/Main.java",
     "settings.editor.selected.configurable": "File.Encoding",
     "settings.editor.splitter.proportion": "0.38173142"
@@ -139,6 +144,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\spring\Techcareer_Offline_JavaSE\src\main\java\com\oopx\interfacex" />
       <recent name="D:\spring\Techcareer_Offline_JavaSE\src\main\java\com\oopx\abstractx" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -151,7 +157,7 @@
       <recent name="com.collectionx" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MainAbstract">
+  <component name="RunManager" selected="Application.MainInterface">
     <configuration name="FinalData" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.oopx.FinalData" />
       <module name="Techcareer_Offline_JavaSE.main" />
@@ -178,12 +184,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.oopx.MainClass" />
+    <configuration name="MainInheritance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.oopx.inheritancex.MainInheritance" />
       <module name="Techcareer_Offline_JavaSE.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.oopx.*" />
+          <option name="PATTERN" value="com.oopx.inheritancex.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -191,12 +197,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainInheritance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.oopx.inheritancex.MainInheritance" />
+    <configuration name="MainInterface" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.oopx.interfacex.MainInterface" />
       <module name="Techcareer_Offline_JavaSE.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.oopx.inheritancex.*" />
+          <option name="PATTERN" value="com.oopx.interfacex.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -219,11 +225,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainInterface" />
         <item itemvalue="Application.MainAbstract" />
         <item itemvalue="Application.MainInheritance" />
         <item itemvalue="Application._17_4_BreakReturnContinue" />
         <item itemvalue="Application.StaticFinalData" />
-        <item itemvalue="Application.MainClass" />
       </list>
     </recent_temporary>
   </component>
@@ -556,12 +562,19 @@
       <option name="project" value="LOCAL" />
       <updated>1716203682909</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="Abstract">
+      <option name="closed" value="true" />
+      <created>1716207444570</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1716207444570</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="StringTokenizer" />
     <MESSAGE value="StringBuffer" />
     <MESSAGE value="conditional, ternary, switchcase" />
     <MESSAGE value="Loop, For, While,Do-While" />
@@ -586,7 +599,8 @@
     <MESSAGE value="Class" />
     <MESSAGE value="Final,static" />
     <MESSAGE value="Inheritance" />
-    <option name="LAST_COMMIT_MESSAGE" value="Inheritance" />
+    <MESSAGE value="Abstract" />
+    <option name="LAST_COMMIT_MESSAGE" value="Abstract" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -21,7 +21,7 @@ public class MainAbstract {
         System.out.println(student);
         System.out.println("**********************************");
 
-        // Student
+        // Teacher
         Teacher teacher=new Teacher("teacher adı-1","teacher soyadı-1");
         teacher.fullName();
         System.out.println(teacher);

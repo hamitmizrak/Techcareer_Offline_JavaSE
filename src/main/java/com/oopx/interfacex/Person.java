@@ -1,10 +1,10 @@
-package com.oopx.abstractx;
+package com.oopx.interfacex;
 
 import java.io.Serializable;
 import java.util.Objects;
 
 // Abstract
-abstract public class Person implements Serializable {
+abstract public class Person implements IPersonCommonFeatures, Serializable {
 
     // Serilestirme
     public static final long serialVersionUID=1L;
