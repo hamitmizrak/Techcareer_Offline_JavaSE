@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="588a4993-db0d-4175-8c19-3830ef08ab7f" name="Changes" comment="Thread">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/innerclass/Country.java" afterDir="false" />
+    <list default="true" id="588a4993-db0d-4175-8c19-3830ef08ab7f" name="Changes" comment="Inner Class">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/innerclass/deneme.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hamitmizrak/_2_PsvmOperators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hamitmizrak/_2_PsvmOperators.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,12 +37,12 @@
     &quot;assignee&quot;: &quot;hamitmizrak&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/hamitmizrak/Techcareer_Offline_JavaSE.git&quot;,
-    &quot;accountId&quot;: &quot;69300f97-9f43-4990-ba90-933e80471c89&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/hamitmizrak/Techcareer_Offline_JavaSE.git",
+    "accountId": "781b8bda-e050-4c99-98fd-ce665e165d23"
   }
-}</component>
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 0
@@ -133,9 +135,15 @@
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "D:/spring/Techcareer_Offline_JavaSE/src/main/java/com/oopx/interfacex",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "D:/spring/Techcareer_Offline_JavaSE/src/main/java/com/hamitmizrak/Main.java",
     "settings.editor.selected.configurable": "File.Encoding",
-    "settings.editor.splitter.proportion": "0.38173142"
+    "settings.editor.splitter.proportion": "0.38173142",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -229,6 +237,14 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.17011.79" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.17011.79" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -237,6 +253,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1715707207763</updated>
+      <workItem from="1716972885510" duration="782000" />
     </task>
     <task id="LOCAL-00001" summary="Java Operators, Varaibles, psvm">
       <option name="closed" value="true" />
@@ -590,12 +607,22 @@
       <option name="project" value="LOCAL" />
       <updated>1716214698986</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="Inner Class">
+      <option name="closed" value="true" />
+      <created>1716216396429</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1716216396429</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Loop, For, While,Do-While" />
     <MESSAGE value="Example" />
     <MESSAGE value="Enum" />
     <MESSAGE value="Date,Calendar" />
@@ -620,7 +647,8 @@
     <MESSAGE value="Abstract" />
     <MESSAGE value="Interface" />
     <MESSAGE value="Thread" />
-    <option name="LAST_COMMIT_MESSAGE" value="Thread" />
+    <MESSAGE value="Inner Class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Inner Class" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

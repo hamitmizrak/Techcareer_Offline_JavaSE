@@ -39,11 +39,11 @@ public class _2_PsvmOperators {
         // Mantıksal Operatörler
         // VE &&
         // VEYA ||
-        // DEĞİL !
+        // DEGİL !
 
         // Bitsel Operatörler
         // VE &
         // VEYA |
-        // DEĞİL !
+        // DEGİL !
     }
 }

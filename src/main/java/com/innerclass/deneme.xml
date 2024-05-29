@@ -1,0 +1,37 @@
+
+manager-jmx, Apache Tomcat'te kullanılan özel bir roldür ve JMX (Java Management Extensions) ile ilişkili yönetim işlemlerine erişim sağlar. JMX, Java uygulamalarının izlenmesi ve yönetilmesi için standart bir teknoloji sağlar. Bu rol, Tomcat'in JMX yönetim işlevlerine erişim sağlamak için kullanılır.
+
+        manager-jmx Rolünün Özellikleri ve Kullanımı
+        JMX Nedir?
+        Java Management Extensions (JMX), Java platformunda uygulama ve sistem yönetimi için kullanılan bir standarttır. JMX, yönetim bilgilerini sunmak ve yönetim işlemlerini gerçekleştirmek için MBean (Managed Bean) adı verilen yönetim objelerini kullanır. Bu objeler, uygulamanın durumu hakkında bilgi sağlayabilir ve yönetim işlemlerini yerine getirebilir.
+
+        manager-jmx Rolü
+        manager-jmx rolü, Tomcat'in JMX yönetim arayüzüne erişim sağlar. Bu rol, JMX MBean'lerini kullanarak Tomcat sunucusunun yönetim ve izleme işlemlerini gerçekleştirmek için gereklidir.
+
+        manager-jmx Rolünün Sağladığı Yetkiler
+        manager-jmx rolüne sahip bir kullanıcı, Tomcat sunucusundaki JMX MBean'lerine erişebilir ve şu işlemleri gerçekleştirebilir:
+
+        JMX Konsoluna Erişim: JMX konsolu veya bir JMX istemcisi (örneğin, JConsole veya VisualVM) kullanarak Tomcat sunucusunun durumunu izleyebilir ve yönetim işlemlerini gerçekleştirebilir.
+        MBean'leri Görüntüleme ve Yönlendirme: MBean'ler aracılığıyla sunucunun çalışma durumu, bellek kullanımı, iş parçacığı durumu gibi bilgileri görüntüleyebilir ve gerekli yönetim işlemlerini yapabilir.
+        Sunucu Performans İzleme: JMX MBean'leri kullanarak performans metriklerini izleyebilir ve analiz edebilir.
+        Uygulama Yönetimi: Dağıtılmış uygulamaların durumu, oturum yönetimi gibi işlemleri MBean'ler üzerinden yapabilir.
+        manager-jmx Rolünün Yapılandırılması
+        Tomcat'te manager-jmx rolüne sahip bir kullanıcı tanımlamak için conf/tomcat-users.xml dosyasını aşağıdaki gibi düzenleyebilirsiniz:
+
+        xml
+        Kodu kopyala
+<tomcat-users>
+    <!-- Roller Tanımlanıyor -->
+    <role rolename="manager-jmx"/>
+
+    <!-- Kullanıcı Tanımlanıyor -->
+    <user username="jmxUser" password="jmxPassword" roles="manager-jmx"/>
+</tomcat-users>
+        Bu örnekte, jmxUser adlı kullanıcıya manager-jmx rolü atanmıştır. Bu kullanıcı, JMX aracılığıyla Tomcat sunucusunu yönetebilir.
+
+        Güvenlik Notları
+        Güçlü Parola Kullanımı: JMX erişimi sunucunun hassas yönetim işlemlerini gerçekleştirebileceğinden, güçlü ve karmaşık parolalar kullanılması önemlidir.
+        Erişim Kontrolü: JMX erişimi yalnızca güvenilir IP adreslerinden ve kullanıcı gruplarından izin verilmelidir.
+        SSL/TLS Kullanımı: JMX bağlantıları için güvenli iletişim sağlamak amacıyla SSL/TLS kullanılması önerilir.
+        Özet
+        manager-jmx rolü, Apache Tomcat'te JMX yönetim işlevlerine erişim sağlar. Bu rol, JMX MBean'leri kullanarak Tomcat sunucusunun izlenmesi ve yönetilmesi için gereklidir. Bu rol sayesinde sunucunun performansı izlenebilir, uygulama yönetimi yapılabilir ve yönetim işlemleri gerçekleştirilebilir.
